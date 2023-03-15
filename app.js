@@ -50,8 +50,8 @@ function readUserColorMode() {
 
 function detectUserPreference() {
   const modeFromLocalStorage = readUserColorMode();
-  // sætter teksten i boksen til den gemte farver når reloader
 
+  // sætter teksten i boksen til den gemte farver når reloader
   console.log(modeFromLocalStorage);
   //kun hvis vi har en værdi i modeFromLocalStorage vises den. dvs forhindrer at inden værid giver null.
   if (modeFromLocalStorage) {
